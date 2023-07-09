@@ -1,5 +1,3 @@
 # NijineChakiri.github.io
 Welcome to Chakiri's Blog!
-<a href="https://nijinechakiri.github.io/">
-  <img src="./source/img/avatar.png" alt="Avatar" class="avatar">
-</a>
+[<img src="./source/img/avatar.png" alt="Avatar" style="zoom:10%;" />](https://nijinechakiri.github.io/)
