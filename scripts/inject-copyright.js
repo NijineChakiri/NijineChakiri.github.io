@@ -57,7 +57,7 @@ hexo.extend.filter.register('theme_inject', function(injects) {
         <% if (page.reproduce) { %>
           <div class="license-meta-item">
             <div>未经授权不得转载</div>
-            <div><%= page.reproduce %></div>
+            <div><%= page.reproduce ? '是' : '否' %></div>
           </div>
         <% } %>
       </div>
