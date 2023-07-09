@@ -1,3 +1,4 @@
+/*
 hexo.extend.filter.register('theme_inject', function(injects) {
   injects.postCopyright.raw('default', `
   <% if (theme.post.copyright.enable && page.copyright !== false) { %>
@@ -67,3 +68,4 @@ hexo.extend.filter.register('theme_inject', function(injects) {
   
   `);
 });
+*/
