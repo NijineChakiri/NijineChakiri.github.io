@@ -1,3 +1,3 @@
 # NijineChakiri.github.io
 Welcome to Chakiri's Blog!
-url: nijinechakiri.github.io
+[![Avatar](./source/img/avatar.png)](https://nijinechakiri.github.io/)
