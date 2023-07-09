@@ -847,7 +847,7 @@ remark42:
 # Based on Tencent CloudBase
 # See: https://twikoo.js.org
 twikoo:
-  envId: https://chakiri.zeabur
+  envId: https://chakiri.zeabur.app
   region: ap-shanghai
   path: window.location.pathname
 
