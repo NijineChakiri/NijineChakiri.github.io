@@ -69,3 +69,7 @@ hexo.extend.filter.register('theme_inject', function(injects) {
   `);
 });
 */
+
+hexo.extend.filter.register('theme_inject', function(injects) {
+  injects.postLeft.file('mactype', 'source/ejs/mactype.ejs', { key: 'value' }, -1);
+});

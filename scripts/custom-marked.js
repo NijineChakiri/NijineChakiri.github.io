@@ -6,7 +6,7 @@ hexo.extend.filter.register('marked:renderer', function(renderer) {
     // 自定义渲染逻辑
     if (text.startsWith('@') && text.endsWith('@')) {
       const string = text.slice(1, -1);
-      return `<span class="Opus Chords Sans Std">${string}</span>`;
+      return `<span class="chord">${string}</span>`;
     }
 
     // 使用默认的渲染方式
