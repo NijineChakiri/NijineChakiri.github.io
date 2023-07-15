@@ -1,0 +1,57 @@
+<style>
+    .cplayer {
+        position: sticky;
+        top: 50%;
+        height: 300px;
+        width: 100px;
+        z-index: 9999;
+    }
+</style>
+
+<aside id="cplayer">
+    <div id="app" class="cplayer"></div>
+</aside>
+<!-- 加载 cplayer 脚本 -->
+<script src="https://cdn.jsdelivr.net/npm/cplayer/dist/cplayer.min.js"></script>
+<script>
+    let player = new cplayer({
+        element: document.getElementById('app'),
+        playlist: [
+            {
+                src: window.location.origin + '/music/The_des_Alizes.mp3',
+                poster: window.location.origin +'/music/The_des_Alizes.jpg',
+                name: 'The des Alizes',
+            },
+
+        ],
+        //big: true,
+        width: '200px',
+        size: {
+            height: '200px',
+            weight: '200px'
+        },
+        //style: 'position: sticky; top: 50 %; height: 200px; width: 200px;'    
+    });
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     var cplayer = document.getElementById('app');
+    //     var preCompoent = document.getElementById('font-slider');
+    //     // var iniTop = 600;
+    //     // var finTop = 120;
+    //     // var hasScrolled = document.querySelector('.font-slider-wrapper').offsetTop;
+    //     var scrollFix = function () {
+    //         // var p = window.scrollY || document.documentElement.scrollTop;
+    //         // if (p > iniTop - finTop) {
+    //         //     elm.style.top = finTop + 'px';
+    //         // } else {
+    //         //     elm.style.top = iniTop - p + 'px';
+    //         // }
+    //         cplayer.style.top = preCompoent.style.top + 100; 
+
+    //     }
+
+    //     scrollFix();
+
+    //     window.addEventListener('scroll', scrollFix);
+    // });
+</script>

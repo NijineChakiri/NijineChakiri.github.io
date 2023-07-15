@@ -71,5 +71,6 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 */
 
 hexo.extend.filter.register('theme_inject', function(injects) {
-  injects.postLeft.file('mactype', 'source/ejs/mactype.ejs', { key: 'value' }, -1);
+  injects.postLeft.file('fontSizeCompoent', 'source/ejs/fontSizeCompoent.ejs', { key: 'value' }, -1);
+  injects.postLeft.file('cplayer', 'source/ejs/cplayer.ejs', { key: 'value' }, -1);
 });

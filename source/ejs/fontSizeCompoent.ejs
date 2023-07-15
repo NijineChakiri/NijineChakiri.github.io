@@ -1,0 +1,87 @@
+<style>
+  .font-slider-wrapper {
+    position: sticky;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    margin-left: 15px;
+  }
+
+  .font-slider-wrapper .slider {
+    display: flex;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+
+  .font-slider-wrapper .slider-value {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    font-size: 16px;
+  }
+
+  .promptText {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+</style>
+  
+<aside class="font-slider-wrapper" id="font-slider">
+  <div class="promptText">设置文字大小</div>
+  <div class="slider" id = "slider">
+    <input type="range" min="16" max="22" step="1" value="16" onchange="changeFontSize(this.value)">
+    <div class="slider-value"><%= typeof currentValue !== 'undefined' ? currentValue : 16 %></div>
+  </div>    
+</aside>
+
+<script>
+  var minFontSize = 16;
+  var maxFontSize = 22;
+  var stepValue = 1;
+  var defaultValue = minFontSize;
+
+  var rangeInput = document.querySelector('.font-slider-wrapper input[type="range"]');
+
+  rangeInput.setAttribute('min', minFontSize);
+  rangeInput.setAttribute('max', maxFontSize);
+  rangeInput.setAttribute('step', stepValue);
+  rangeInput.setAttribute('value', defaultValue);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var fontSliderWrapper = document.querySelectorAll('.font-slider-wrapper');
+    if (fontSliderWrapper.length > 0) {
+      var elm = fontSliderWrapper[0];
+      var iniTop = 600;
+      var finTop = 120;
+      var hasScrolled = document.querySelector('.font-slider-wrapper').offsetTop;
+      var scrollFix = function () {
+        var p = window.scrollY || document.documentElement.scrollTop;
+        if (p > iniTop - finTop) {
+          elm.style.top = finTop + 'px';
+        } else {
+          elm.style.top = iniTop - p + 'px';
+        }
+      }
+    }
+
+    scrollFix();
+
+    window.addEventListener('scroll', scrollFix);
+  });
+
+  function changeFontSize(value) {
+    const sliderValue = document.querySelector('.slider-value');
+    sliderValue.textContent = value;
+    const text = document.querySelector('.markdown-body');
+    text.style.fontSize = value + 'px';
+  }
+
+</script>
