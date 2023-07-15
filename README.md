@@ -1,6 +1,6 @@
 <p align="center">
     <a title="Avatar" target="_blank" href="https://nijinechakiri.github.io/">
-        <img alt="Avatar" src="./source/img/avatar_circle.png">
+        <img alt="Avatar" src="./source/img/avatar.png" style="border-radius: 50%; width: 200px; height: 200px;">
     </a>
 </p>
 
