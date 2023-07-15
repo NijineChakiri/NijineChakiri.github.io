@@ -11,3 +11,15 @@
     font-size: 14px; /* 根据需要调整字体大小 */
     color: #888888; /* 根据需要调整字体颜色 */
 }
+
+@font-face {
+    font-family: 'Opus Chords Sans Std';
+    src: url('../fonts/OpusChordsSansStd.otf') format('truetype');
+    
+    font-family: 'XHei Intel';
+    src: url('../fonts/XHei_Intel.ttc') format('truetype');
+}
+
+.chord {
+    font-family: 'Opus Chords Sans Std', sans-serif;
+}

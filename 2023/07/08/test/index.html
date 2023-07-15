@@ -24,7 +24,7 @@
 <meta property="og:description" content="第十七讲 全面从严治党一、为什么要从严治党  ——打铁必须自身硬（一）从严治党是马克思主义政党的政治优势 我们党是用革命理想和铁的纪律组织起来的马克思主义政党，组织严密、纪律严明是党的优良传统和政治优势，也是我们的力量所在。  （二）全面从严治党是实现民族复兴的根本保证 全面建设社会主义现代化国家、全面推进中华民族伟大复兴，关键在党。  （三） 全面从严治党是决定党兴衰成败的关键因素 我们党作为世">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-07-08T15:56:47.000Z">
-<meta property="article:modified_time" content="2023-07-09T10:17:49.341Z">
+<meta property="article:modified_time" content="2023-07-15T12:40:16.375Z">
 <meta property="article:author" content="Chakiri">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -65,7 +65,7 @@
 
 
   
-<link rel="stylesheet" href="/source/css/custom.css">
+<link rel="stylesheet" href="/css/custom.css">
 
 
 
@@ -269,7 +269,93 @@
   <div class="row nomargin-x">
     <div class="side-col d-none d-lg-block col-lg-2">
       
+<style>
+  .font-slider-wrapper {
+    position: sticky;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    margin-left: 15px;
+  }
 
+  .font-slider-wrapper .slider {
+    display: flex;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+
+  .font-slider-wrapper .slider-value {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    font-size: 16px;
+  }
+
+  .promptText {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+</style>
+  
+<aside class="font-slider-wrapper">
+  <div class="promptText">设置文字大小</div>
+  <div class="slider">
+    <input type="range" min="16" max="22" step="1" value="16" onchange="changeFontSize(this.value)">
+    <div class="slider-value">16</div>
+  </div>    
+</aside>
+
+<script>
+  var minFontSize = 16;
+  var maxFontSize = 22;
+  var stepValue = 1;
+  var defaultValue = minFontSize;
+
+  var rangeInput = document.querySelector('.font-slider-wrapper input[type="range"]');
+
+  rangeInput.setAttribute('min', minFontSize);
+  rangeInput.setAttribute('max', maxFontSize);
+  rangeInput.setAttribute('step', stepValue);
+  rangeInput.setAttribute('value', defaultValue);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var fontSliderWrapper = document.querySelectorAll('.font-slider-wrapper');
+    if (fontSliderWrapper.length > 0) {
+      var elm = fontSliderWrapper[0];
+      var iniTop = 600;
+      var finTop = 120;
+      var hasScrolled = document.querySelector('.font-slider-wrapper').offsetTop;
+      var scrollFix = function () {
+        var p = window.scrollY || document.documentElement.scrollTop;
+        if (p > iniTop - finTop) {
+          elm.style.top = finTop + 'px';
+        } else {
+          elm.style.top = iniTop - p + 'px';
+        }
+      }
+    }
+
+    scrollFix();
+
+    window.addEventListener('scroll', scrollFix);
+  });
+
+  function changeFontSize(value) {
+    const sliderValue = document.querySelector('.slider-value');
+    sliderValue.textContent = value;
+    const text = document.querySelector('.markdown-body');
+    text.style.fontSize = value + 'px';
+  }
+
+</script>
     </div>
 
     <div class="col-lg-8 nopadding-x-md">
@@ -530,6 +616,7 @@
 <p>开展党的群众路线教育实践活动         <strong>–&gt;</strong>       建立不忘初心、牢记使命的制度</p>
 <p>严格规范党内政治生活                        <strong>–&gt;</strong>       着力营造风清气正的政治生态</p>
 <p><strong>时刻保持解决大党独有难题的清醒和坚定，一刻不停推进全面从严治党</strong></p>
+<p><span class="chord">Ab7</span></p>
 <hr>
 <p><strong>全面从严治党是新时代党的自我革命的伟大实践，开辟了百年大党自我革命的新境界。面向未来，我们党要承担起新时代坚持和发展中国特色社会主义的历史使命，就必须永远保持“赶考”的清醒和坚定，以永远在路上的信念和执着，以伟大自我革命引领伟大社会革命，坚持不懈把全面从严治党向纵深推进。</strong></p>
 
@@ -606,7 +693,7 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/07/09/hello-world/" title="Hello World">
+                      <a href="/2023/07/15/hello-world/" title="Hello World">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">上一篇</span>
