@@ -1,5 +1,5 @@
-
-<style>
+<!-- 以下是已经废弃的使用aplayer的代码 -->
+<!-- <style>
     .aplayer {
         position: sticky;
         display: flex;
@@ -28,49 +28,62 @@
             }],
         });
     ap.style.margin = '5px';
-</script>
+</script> -->
 
-<!-- 加载 cplayer 脚本 -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/cplayer/dist/cplayer.min.js"></script>
-<script>
+
+<!-- 使用cplayer组件 -->
+<!-- github地址: https://github.com/MoePlayer/cPlayer -->
+
+<!-- 样式部分 -->
+<style>
+    .cplayer-wrapper {
+        position: sticky;
+        display: flex;
+        z-index: 9999;
+        margin-left: 4px;
+    }
+
+    .cplayer {
+        position: sticky;
+        display: flex;     
+        line-height: 15px;
+    }
+</style>
+
+<!-- html元素部分 -->
+<aside class="cplayer-wrapper">
+    <div class="cplayer"></div>
+</aside>
+
+
+<!-- js部分 -->
+<script src="https://cdn.jsdelivr.net/npm/cplayer/dist/cplayer.min.js"></script>
+<script type="module">
+    import { applyStickyScroll } from '/js/applyStickyScroll.js';
+    import { loadPlaylist } from '/js/loadPlaylist.js';
+    
     let player = new cplayer({
-        element: document.getElementById('app'),
-        playlist: [
-            {
-                src: window.location.origin + '/music/The_des_Alizes.mp3',
-                poster: window.location.origin +'/music/The_des_Alizes.jpg',
-                name: 'The des Alizes',
-            },
-
-        ],
-        //big: true,
-        width: '200px',
-        size: {
-            height: '200px',
-            weight: '200px'
-        },
-        //style: 'position: sticky; top: 50 %; height: 200px; width: 200px;'    
+        element: document.querySelector('.cplayer'),
+        playlist: [],
+        big: true,
+        width: '230px',
+        size: '9px',
+        style: 'box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);'    
     });
 
-    // document.addEventListener('DOMContentLoaded', function () {
-    //     var cplayer = document.getElementById('app');
-    //     var preCompoent = document.getElementById('font-slider');
-    //     // var iniTop = 600;
-    //     // var finTop = 120;
-    //     // var hasScrolled = document.querySelector('.font-slider-wrapper').offsetTop;
-    //     var scrollFix = function () {
-    //         // var p = window.scrollY || document.documentElement.scrollTop;
-    //         // if (p > iniTop - finTop) {
-    //         //     elm.style.top = finTop + 'px';
-    //         // } else {
-    //         //     elm.style.top = iniTop - p + 'px';
-    //         // }
-    //         cplayer.style.top = preCompoent.style.top + 100; 
+    //添加滚动悬浮效果
+    document.addEventListener('DOMContentLoaded', function () {
+        const cplayer = document.querySelector('.cplayer-wrapper');
+        const initialTop = 700;
+        const finalTop = 220;
 
-    //     }
+        applyStickyScroll(cplayer, initialTop, finalTop);
+    });
 
-    //     scrollFix();
+    let playlist = await loadPlaylist();
+    playlist.forEach((song) => {
+            player.add(song);
+    });
 
-    //     window.addEventListener('scroll', scrollFix);
-    // });
-</script> -->
+    
+</script>
