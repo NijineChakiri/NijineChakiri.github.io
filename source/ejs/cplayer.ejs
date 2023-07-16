@@ -39,13 +39,12 @@
     .cplayer-wrapper {
         position: sticky;
         display: flex;
-        z-index: 9999;
+        z-index: 9000;
         margin-left: 4px;
     }
 
     .cplayer {
-        position: sticky;
-        display: flex;     
+        z-index: 9999;
         line-height: 15px;
     }
 </style>
@@ -67,8 +66,7 @@
         playlist: [],
         big: true,
         width: '230px',
-        size: '9px',
-        style: 'box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);'    
+        size: '9px',   
     });
 
     //添加滚动悬浮效果
