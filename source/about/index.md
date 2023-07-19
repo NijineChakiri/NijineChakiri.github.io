@@ -3,4 +3,4 @@ title: about
 layout: about
 ---
 
-# Welcome to Chakiri's Blog!
+<h1 align="center">Welcome to Chakiri's Blog!</h1>
