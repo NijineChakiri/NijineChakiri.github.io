@@ -19,4 +19,4 @@
     </a>
 </p>
 
-<h1 align="center">Welcome to Chakiri's Blog!</h1>
+<h1 align="center">欢迎来到 Chakiri 的博客！</h1>
