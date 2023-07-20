@@ -74,3 +74,8 @@ hexo.extend.filter.register('theme_inject', function(injects) {
   injects.postLeft.file('fontSizeCompoent', 'source/ejs/fontSizeCompoent.ejs', { key: 'value' }, -1);
   injects.postLeft.file('cplayer', 'source/ejs/cplayer.ejs', { key: 'value' }, -1);
 });
+hexo.extend.injector.register(
+  "body_end",
+  '<script src="/js/targetBlink.js"></script>',
+  "post"
+);

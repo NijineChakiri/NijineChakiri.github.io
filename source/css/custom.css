@@ -20,6 +20,37 @@
     src: url('../fonts/XHei_Intel.ttc') format('truetype');
 }
 
+/* 和弦 */
 .chord {
     font-family: 'Opus Chords Sans Std', sans-serif;
+}
+
+/* 闪烁动画 */
+@keyframes blink {
+    0% { opacity: 1; color: inherit; text-shadow: none; }
+    50% { opacity: 0.5; color: #66ccff; text-shadow: 0 0 2px rgba(0, 0, 0, 0.3); }
+    100% { opacity: 1; color: inherit; text-shadow: none; }
+}
+
+.blink {
+    animation: blink 2s infinite;
+}
+
+/* 高亮 */
+.myHighlight {
+    color: #ff4757;
+    font-size: 110%;
+    text-shadow: 0.3px 0.3px 1px rgba(0, 0, 0, 0.8);
+}
+
+.keyboard-text {
+  padding: 0px 3px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  color: #2d3436;
+  border-radius: 15%;
+  text-transform: uppercase;
+  display: inline-block;
+  text-shadow: 0.3px 0.3px 1px rgba(0, 0, 0, 0.8);
+  box-shadow: 0.8px 0.8px 2px rgba(0, 0, 0, 0.8);
 }
