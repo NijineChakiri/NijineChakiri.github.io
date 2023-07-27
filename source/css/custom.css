@@ -1,28 +1,175 @@
-.avatar {
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-}
-
-.additional-copyright {
-    margin-top: 10px; /* 根据需要调整间距 */
-    font-size: 14px; /* 根据需要调整字体大小 */
-    color: #888888; /* 根据需要调整字体颜色 */
-}
-
+/* 引入字体 */
 @font-face {
     font-family: 'Opus Chords Sans Std';
-    src: url('../fonts/OpusChordsSansStd.otf') format('truetype');
+    src: url('../fonts/OpusChordsSansStd.otf') format('opentype');
     
     font-family: 'XHei Intel';
     src: url('../fonts/XHei_Intel.ttc') format('truetype');
 }
 
-/* 和弦 */
+/* 和弦 
+以 A = 440Hz 为基准，用 λ = 334400 / f ，将频率 f in [440.00(A), 830.61(G#/Ab)] 映射到可见光 λ in [402.60, 760]
+之后 λ 与 RGB 值的转换参考https://www.johndcook.com/wavelength_to_RGB.html*/
 .chord {
-    font-family: 'Opus Chords Sans Std', sans-serif;
+    padding: 0px 5px 0px 5px;
+    color: white;
+    border-radius: 0.35em;
+    display: inline-block;
+    text-shadow: 0.4px 0.4px 1px rgba(0, 0, 0, 0.8);
+    box-shadow: 0.8px 0.8px 2px rgba(0, 0, 0, 0.8);
+    filter: grayscale(30%);
+}
+.chord .root{
+    vertical-align: 0em;
+}
+.chord .rootAccidental {
+    vertical-align: 0.5em;
+    margin-left: -0.25em;
+    margin-right: -0.25em;
+    font-size: 70%;
+    display: none;
+}
+
+.chord .construction {
+    font-size: 80%;
+    display: none;
+}
+
+.chord .extensions {
+    vertical-align: 0.5em;
+    font-size: 50%;
+    display: none;
+}
+
+.chord .extensions::before {
+    margin-left: 0.2em;
+    vertical-align: 0.1em;
+    content:"(";
+}
+
+.chord .extensions::after {
+    vertical-align: 0.1em;
+    content:")";
+}
+
+.chord .omit {
+    vertical-align: 0.5em;
+    font-size: 50%;
+    display: none;
+}
+
+.chord .omit::before {
+    margin-left: 0.3em;
+    content: "omit("
+}
+
+.chord .omit::after {
+    content: ")"
+}
+
+.chord .bass {
+    font-size: 85%;
+    display: none;
+}
+
+.chord .bass::before {
+    font-size: 120%;
+    margin-left: 0.05em;
+    margin-right: 0.05em;
+    content: "/";
+}
+
+.chord .bassAccidental {
+    vertical-align: 0.5em;
+    margin-left: -0.4em;
+    margin-right: -0.25em;
+    font-size: 40%;
+    display: none;
+}  
+
+.chord .bass:not(:empty),
+.chord .bassAccidental:not(:empty),
+.chord .rootAccidental:not(:empty),
+.chord .construction:not(:empty),
+.chord .extensions:not(:empty),
+.chord .omit:not(:empty) {
+    display: inline; 
+}
+
+.chord[root="I"],
+.chord[root="A"]{
+    background-color: #8d0000;
+}
+
+.chord[root="#I"],
+.chord[root="bII"],
+.chord[root="A#"],
+.chord[root="Bb"]{
+    background-color: #e00000;
+}
+
+.chord[root="II"],
+.chord[root="B"],
+.chord[root="Cb"]{
+    background-color: #ff0000;
+}
+
+.chord[root="#II"],
+.chord[root="bIII"],
+.chord[root="B#"],
+.chord[root="C"]{
+    background-color: #ff2500;
+}
+
+.chord[root="III"],
+.chord[root="bIV"],
+.chord[root="C#"],
+.chord[root="Db"]{
+    background-color: #ffb300;
+}
+
+.chord[root="IV"],
+.chord[root="D"]{
+    background-color: #dfff00;
+}
+
+.chord[root="#IV"],
+.chord[root="bV"],
+.chord[root="D#"],
+.chord[root="Eb"]{
+    background-color: #78ff00;
+}
+
+.chord[root="V"],
+.chord[root="E"],
+.chord[root="Fb"]{
+    background-color: #00ff34;
+}
+
+.chord[root="#V"],
+.chord[root="bVI"],
+.chord[root="E#"],
+.chord[root="F"]{
+    background-color: #00d0ff;
+}
+
+.chord[root="VI"],
+.chord[root="F#"],
+.chord[root="Gb"]{
+    background-color: #0051ff;
+}
+
+.chord[root="#VI"],
+.chord[root="bVII"],
+.chord[root="G"]{
+    background-color: #4d00ff;
+}
+
+.chord[root="VII"],
+.chord[root="bI"],
+.chord[root="G#"],
+.chord[root="Ab"]{
+    background-color: #8300bf;
 }
 
 /* 闪烁动画 */
@@ -43,6 +190,7 @@
     text-shadow: 0.3px 0.3px 1px rgba(0, 0, 0, 0.8);
 }
 
+/* 键盘按键 */
 .keyboard-text {
   padding: 0px 3px;
   border: 1px solid #ccc;
@@ -53,4 +201,16 @@
   display: inline-block;
   text-shadow: 0.3px 0.3px 1px rgba(0, 0, 0, 0.8);
   box-shadow: 0.8px 0.8px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* 给文字加上黑色遮罩 */
+.fog span {
+      background-color: #252525;
+      transition: color 0.3s ease;
+      color: #252525;
+    }
+
+/* 鼠标悬停时白色文字逐渐显示 */
+.fog span:hover {
+    color: white
 }

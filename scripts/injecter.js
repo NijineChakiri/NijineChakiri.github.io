@@ -76,6 +76,6 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 });
 hexo.extend.injector.register(
   "body_end",
-  '<script src="/js/targetBlink.js"></script>',
+  '<script src="/js/targetBlink.js"></script><script src="/js/parseChord.js"></script>',
   "post"
 );
