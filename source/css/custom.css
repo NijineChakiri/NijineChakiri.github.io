@@ -68,11 +68,13 @@
 }
 
 .chord .bass {
+    vertical-align: -0.06em;
     font-size: 85%;
     display: none;
 }
 
 .chord .bass::before {
+    vertical-align: 0.06em;
     font-size: 120%;
     margin-left: 0.05em;
     margin-right: 0.05em;
