@@ -27,17 +27,17 @@ categories:
 
 举个例子：
 
-![image-20231107162803680](C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231107162803680.png)
+![01](./调位与弦位/01.png)
 
 单看上图中的旋律音，我们无法对它进行任何研究，也无从得知它的任何性质，因为我们并不知道它所处的环境，甚至连它的音高都无法确定，但如果将整张图片都展示出来呢？
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231107163512720.png" alt="image-20231107163512720" style="zoom:67%;" />
+<img src="./调位与弦位/02.png" alt="02" style="zoom: 67%;" />
 
 有了更多的环境信息，红色方框中的旋律音才能表现出具体的性质。
 
 通过两张图片的对比，前面一直强调的“环境”究竟是什么似乎也有了眉目，大家可以先思考一下有哪些“环境”需要考虑，下面我将直接给出我的答案。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231107164537957.png" alt="image-20231107164537957" style="zoom:67%;" />
+<img src="./调位与弦位/03.png" alt="03" style="zoom:67%;" />
 
 1. **该旋律音当前所处的调性**，即图中绿色方框中所示（其实仅由绿色方框中的调号无法揭示调性，这里只是为了直观举例才这样说，调性一词是什么意思之后会在其他文章中讨论，这里可以先粗浅地理解为“什么调”）
 2. **该旋律音下方的和弦**，即图中橙色方框所示。
@@ -107,7 +107,7 @@ $e.g.\quad$ $\mathring3$ 为**E**在**C和弦**上的弦位 / **E**在**C和弦*
 
 这是因为**在一般情况下，旋律音也应被视作是和弦的一部分**。当C和弦上出现了旋律音B，C和弦就变成了CM7，若是出现旋律音Bb，C和弦就变成了C7，这样同时也避免了歧义，如下图所示。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231108000142760.png" alt="image-20231108000142760" style="zoom: 67%;" />
+<img src="./调位与弦位/04.png" alt="04" style="zoom:67%;" />
 
 **最后还需要强调一点**，也就是根音与低音的区别（这一点在和弦篇会展开讨论），弦位是相对于下方和弦**根音**的，因此C7上Bb的弦位为 $\mathring7$，C7/G上Bb的弦位仍为 $\mathring7$。
 
@@ -160,7 +160,7 @@ $e.g.\quad$ $\mathring3$ 为**E**在**C和弦**上的弦位 / **E**在**C和弦*
 
 
 2. 按顺序写出下图所有红框中旋律音的弦位与调位。(12分)
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231108010738424.png" alt="image-20231108010738424" style="zoom: 50%;" />
+   <img src="./调位与弦位/05.png" alt="05" style="zoom:67%;" />
 
    答：
 
@@ -173,7 +173,7 @@ $e.g.\quad$ $\mathring3$ 为**E**在**C和弦**上的弦位 / **E**在**C和弦*
 
 
 3. 按顺序写出下图每一小节中旋律音Ab的弦位与调位，有人认为所有旋律音Ab的调位都相同，但每一小节中旋律音Ab的弦位都不同，这一观点是否正确？如正确请证明，如错误请指出错误之处并解释。(20分)
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231108011508429.png" alt="image-20231108011508429" style="zoom:50%;" />
+   <img src="./调位与弦位/06.png" alt="06" style="zoom:67%;" />
 
    答：
 
