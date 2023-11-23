@@ -1,3 +1,10 @@
+---
+title: 四部定式
+date: 2023-07-20 21:20:27
+tags:
+categories:
+---
+
 <center><h1>
     四部定式 (<em> four-part formula</em>)
     </h1></center>

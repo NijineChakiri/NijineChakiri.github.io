@@ -1,6 +1,15 @@
-<center><h2>
+---
+title: MuseScore常见问题指南
+date: 2023-11-23 12:30:27
+tags:
+categories:
+---
+
+
+<center><h1>
     MuseScore常见问题指南
-    </h2></center>
+    </h1></center>
+
 ### 问题目录
 
 <center><span style="font-size:28px;font-weight:bold">点击关键词可跳转至对应问题</span></center>

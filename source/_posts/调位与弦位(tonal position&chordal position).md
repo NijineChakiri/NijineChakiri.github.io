@@ -1,9 +1,17 @@
+---
+title: 调位与弦位
+date: 2023-11-23 12:30:27
+tags:
+categories:
+---
+
 <center>
     <h1>
-        调位与弦位 01
+        调位与弦位
     	<em>tonal position &amp chordal position</em>
     </h1>
 </center>
+
 
 
 ### 一、旋律音的性质
