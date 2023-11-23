@@ -5,10 +5,9 @@ tags:
 categories:
 ---
 
-
-<center><h1>
+<center><h2>
     MuseScore常见问题指南
-    </h1></center>
+    </h2></center>
 
 ### 问题目录
 
@@ -80,21 +79,21 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 如有输入简谱的需求，可以考虑使用以下几个软件：
 
-1. EOP简谱大师（推荐）：https://www.everyonepiano.cn/Software-7-EOP-%E7%AE%80%E8%B0%B1%E5%A4%A7%E5%B8%88.html
+1. EOP 简谱大师（推荐）：https://www.everyonepiano.cn/Software-7-EOP-%E7%AE%80%E8%B0%B1%E5%A4%A7%E5%B8%88.html
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121160047765.png" alt="image-20231121160047765" style="zoom: 16%;" />
+   <img src="./img/00_03_01.png" alt="EOP简谱大师" style="zoom: 16%;" />
 
-   EOP简谱大师是一个老牌软件，多年以来一直保持更新，且宣称永久免费。EOP 简谱大师操作较为简单，上手容易，关于简谱的许多功能也非常完善，且还支持VSTi 音源和 midi，具体功能介绍可以点击上方链接进入官网查看。
+   EOP 简谱大师是一个老牌软件，多年以来一直保持更新，且宣称永久免费。EOP 简谱大师操作较为简单，上手容易，关于简谱的许多功能也非常完善，且还支持VSTi 音源和 midi，具体功能介绍可以点击上方链接进入官网查看。
 
 2. JP-Word：https://www.happyeo.com/intro_jpw.htm
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121160010877.png" alt="image-20231121160010877" style="zoom:25%;" />
+   <img src="./img/00_03_02.png" alt="JP-Word" style="zoom: 25%;" />
 
-   JP-Word功能也十分强大，缺点是免费版有功能限制且有水印。
+   JP-Word 功能也十分强大，缺点是免费版有功能限制且有水印。
 
 3. 番茄简谱：http://www.jianpu99.net
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121155942894.png" alt="image-20231121155942894" style="zoom:33%;" />
+   <img src="./img/00_03_03.png" alt="番茄简谱" style="zoom: 33%;" />
 
    番茄简谱有网页版，无需安装，可以直接在网页端输入简谱。番茄简谱通过脚本输入简谱，具有一定的上手门槛，但熟练以后效率很高。缺点是功能并不完善。
 
@@ -106,21 +105,21 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 方法1：适合选中连续的小节/音符，先点击选中选区开头的小节/音符，按住 shift ，点击选中选区末尾的小节/音符。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120173749971.png" alt="image-20231120173749971" style="zoom:50%;" />
+<img src="./img/01_01_01.png" alt="01_01_01" style="zoom:50%;" />
 
 方法2：适合选中离散的音符/元素，按住 ctrl ，点击需要选中的音符/元素。
 
 
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120173834202.png" alt="image-20231120173834202" style="zoom:50%;" />
+<img src="./img/01_01_02.png" alt="01_01_02" style="zoom:50%;" />
 
 方法3：适合选中一个区域内的音符/元素，按住 shift ，按住鼠标左键后拖动鼠标框选范围，最后松开，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120174050099.png" alt="image-20231120174050099" style="zoom:50%;" />
+<img src="./img/01_01_03.png" alt="01_01_03" style="zoom:50%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120174100049.png" alt="image-20231120174100049" style="zoom:50%;" />
+<img src="./img/01_01_04.png" alt="01_01_04" style="zoom:50%;" />
 
 ---
 
@@ -136,23 +135,23 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 将**顶部菜单栏-视图-过滤器**勾选，打开过滤器。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121000652651.png" alt="image-20231121000652651" style="zoom:50%;" />
+<img src="./img/01_02_01.png" alt="01_02_01.png" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121000713674.png" alt="image-20231121000713674" style="zoom: 33%;" />
+<img src="./img/01_02_02.png" alt="01_02_02" style="zoom:33%;" />
 
 以**选中第一声部**为例：
 
 第一步，将**全部**前的勾取消，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121000859473.png" alt="image-20231121000859473" style="zoom:33%;" />
+<img src="./img/01_02_03.png" alt="01_02_03" style="zoom:33%;" />
 
 第二步，**勾选第一声部**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121000927519.png" alt="image-20231121000927519" style="zoom:33%;" />
+<img src="./img/01_02_04.png" alt="01_02_04" style="zoom:33%;" />
 
 第三步，**选中所需选区**，此时选取对象仅为第一声部的元素，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121001102334.png" alt="image-20231121001102334" style="zoom: 50%;" />
+<img src="./img/01_02_05.png" alt="01_02_05" style="zoom:50%;" />
 
 ---
 
@@ -166,39 +165,39 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 **针对音符**，还可以使用选择音符面板快速选择一类具有某一特征的音符，非常便捷。
 
-举个例子，想要把这两个小节中的E全部变成Eb，如何快速操作？
+举个例子，想要把这两个小节中的 E 全部变成 Eb ，如何快速操作？
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002252278.png" alt="image-20231121002252278" style="zoom:33%;" />
+<img src="./img/01_03_01.png" alt="01_03_01" style="zoom:33%;" />
 
 ---
 
-如果使用 ctrl 键来点击选中所有音符E显然效率不高，而且容易出错，当音符量大时更是费时费力，这时就是选择音符面板大展身手的时候了。
+如果使用 ctrl 键来点击选中所有音符E 显然效率不高，而且容易出错，当音符量大时更是费时费力，这时就是选择音符面板大展身手的时候了。
 
 第一步，**选中这两个小节**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002509712.png" alt="image-20231121002509712" style="zoom:50%;" />
+<img src="./img/01_03_02.png" alt="01_03_02" style="zoom: 33%;" />
 
 第二步，**鼠标移动到任意一个音符E的符头上，点击鼠标右键**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002534235.png" alt="image-20231121002534235" style="zoom:33%;" />
+<img src="./img/01_03_03.png" alt="01_03_03" style="zoom:33%;" />
 
 第三步，鼠标移动到**选择**上，在右侧菜单中选择**更多..**.，此时会弹出**选择音符**面板，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002558956.png" alt="image-20231121002558956" style="zoom: 33%;" />
+<img src="./img/01_03_04.png" alt="01_03_04" style="zoom:33%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002134869.png" alt="image-20231121002134869" style="zoom:33%;" />
+<img src="./img/01_03_05.png" alt="01_03_05" style="zoom:33%;" />
 
 第四步，勾选**同一音名和选中前的复选框**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002714352.png" alt="image-20231121002714352" style="zoom:33%;" />
+<img src="./img/01_03_06.png" alt="01_03_06" style="zoom:33%;" />
 
 第五步，**点击OK**，可以看到这两个小节内的所有音符 E 都被选中了，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002757424.png" alt="image-20231121002757424" style="zoom:33%;" />
+<img src="./img/01_03_07.png" alt="01_03_07" style="zoom: 33%;" />
 
 第六步，**按下方向键↓**，此时所有音符 E 就变为了 Eb ，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121002854143.png" alt="image-20231121002854143" style="zoom:33%;" />
+<img src="./img/01_03_08.png" alt="01_03_08" style="zoom:33%;" />
 
 ---
 
@@ -212,7 +211,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 **选中你想要隐藏的元素**，**按下 v 键**即可隐藏，或者在**元素检视器**中将**“可见”**前的勾去掉，两种方法等价。
 
-![image-20231120163517362](C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120163517362.png)
+<img src="./img/02_01_01.png" alt="02_01_01" style="zoom:50%;" />
 
 可以隐藏的元素有休止符、符头、符干、符杠、小节线、拍号、调号等等。
 
@@ -222,21 +221,19 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 确保**顶部菜单栏-视图-元素检视器**为勾选状态，如果未勾选，请**点击将其勾选**。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120170819002.png" alt="image-20231120170819002" style="zoom:50%;" />
+<img src="./img/02_01_02.png" alt="02_01_02" style="zoom:50%;" />
 
 *元素检视器是非常常用的一个面板，建议让其始终显示，可以将其拖动到屏幕左侧与符号面板共用窗口（个人习惯，屏幕大的话放右边也可以）*
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120170956045.png" alt="image-20231120170956045" style="zoom:50%;" />
+<img src="./img/02_01_03.png" alt="02_01_03" style="zoom:50%;" />
 
 #### 隐藏后的元素为什么还显示在谱面上？
 
 隐藏后的元素会变为半透明。隐藏的元素**并不会出现在导出的 pdf 中**。如果在谱面上也不想看到隐藏的元素，可以**取消勾选 视图-显示不可见元素**。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120164533952.png" alt="image-20231120164533952" style="zoom:50%;" />
+<img src="./img/02_01_04.png" alt="02_01_04" style="zoom: 50%;" />
 
-
-
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120164608586.png" alt="image-20231120164608586" style="zoom:50%;" />
+<img src="./img/02_01_05.png" alt="02_01_05" style="zoom: 50%;" />
 
 ---
 
@@ -244,17 +241,17 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 如下图所示，这个音符符干默认是朝下的，我想让它朝上，怎么做？
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120164943093.png" alt="image-20231120164943093" style="zoom:50%;" />
+<img src="./img/03_01_01.png" alt="03_01_01" style="zoom:50%;" />
 
 ----
 
 **选中该音符（建议点击符头）**，**按下 x 键**即可，或者在上方工具栏中**点击翻转方向按钮**，两种方法等价。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120165200114.png" alt="image-20231120165200114" style="zoom:50%;" />
+<img src="./img/03_01_02.png" alt="03_01_02" style="zoom:50%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120165233379.png" alt="image-20231120165233379" style="zoom:50%;" />
+<img src="./img/03_01_03.png" alt="03_01_03" style="zoom:50%;" />
 
 ---
 
@@ -262,51 +259,51 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 只需选中一个音符，**与其符杠相连的音符会被一同翻转**，效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120165555506.png" alt="image-20231120165555506" style="zoom:50%;" />
+<img src="./img/03_01_04.png" alt="03_01_04" style="zoom:50%;" />
 
 **某些元素也可以通过翻转来快速调整位置**，如翻转表情记号快速调整其在谱表的上方还是下方，效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121115240816.png" alt="image-20231121115240816" style="zoom:50%;" />
+<img src="./img/03_01_05.png" alt="03_01_05" style="zoom:50%;" />
 
 ---
 
 ### <span id="连续符杠">四、我想让这两个音符的符杠连起来，怎么做？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120165726632.png" alt="image-20231120165726632" style="zoom:50%;" />
+<img src="./img/04_01_01.png" alt="04_01_01" style="zoom:50%;" />
 
 ---
 
 第一步，选中**断开处后方**的音符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120165912201.png" alt="image-20231120165912201" style="zoom:50%;" />
+<img src="./img/04_01_02.png" alt="04_01_02" style="zoom:50%;" />
 
 第二步，点击左侧**符号面板-符杠属性-连续符杠**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120165847622.png" alt="image-20231120165847622" style="zoom:50%;" />
+<img src="./img/04_01_03.png" alt="04_01_03" style="zoom:50%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120165938211.png" alt="image-20231120165938211" style="zoom:50%;" />
+<img src="./img/04_01_04.png" alt="04_01_04" style="zoom:50%;" />
 
 #### 左侧没有符号面板，怎么办？
 
 确保**顶部菜单栏-视图-符号面板**为勾选状态，如果未勾选，请**点击将其勾选**。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120170410220.png" alt="image-20231120170410220" style="zoom:50%;" />
+<img src="./img/04_01_05.png" alt="04_01_05" style="zoom:50%;" />
 
 #### 符号面板中没有符杠属性，怎么办？
 
 第一步，在符号面板的顶部**点击添加面板按钮**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120171049245.png" alt="image-20231120171049245" style="zoom:50%;" />
+<img src="./img/04_01_06.png" alt="04_01_06" style="zoom:50%;" />
 
 第二步，在弹出窗口符杠属性的一栏中**点击添加按钮**。如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120171137410.png" alt="image-20231120171137410" style="zoom:50%;" />
+<img src="./img/04_01_07.png" alt="04_01_07" style="zoom:50%;" />
 
 现在在符号面板的顶部应该就会出现符杠属性选项卡，可以**拖动调整选项卡的顺序**。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120171356920.png" alt="image-20231120171356920" style="zoom:50%;" />
+<img src="./img/04_01_08.png" alt="04_01_08" style="zoom:50%;" />
 
 ---
 
@@ -318,17 +315,17 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 ### <span id="跨休止符连续符杠">五、我想让这两个音符的符杠跨休止符连起来，怎么做？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120171730351.png" alt="image-20231120171730351" style="zoom:50%;" />
+<img src="./img/05_01_01.png" alt="05_01_01" style="zoom:50%;" />
 
 ---
 
 第一步，先**选中两个音符之间的休止符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120171837508.png" alt="image-20231120171837508" style="zoom:50%;" />
+<img src="./img/05_01_02.png" alt="05_01_02" style="zoom:50%;" />
 
 第二步，点击左侧**符号面板-符杠属性-连续符杠**，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120171932312.png" alt="image-20231120171932312" style="zoom:50%;" />
+<img src="./img/05_01_03.png" alt="05_01_03" style="zoom:50%;" />
 
 ---
 
@@ -340,19 +337,19 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 ### <span id="断开符杠">六、我想让这两个音符的符杠断开来，怎么做？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120172252957.png" alt="image-20231120172252957" style="zoom:50%;" />
+<img src="./img/06_01_01.png" alt="06_01_01" style="zoom:50%;" />
 
 与让音符符杠相连类似，第一步同样是**选中需要断开处后方的音符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120172303174.png" alt="image-20231120172303174" style="zoom:50%;" />
+<img src="./img/06_01_02.png" alt="06_01_02" style="zoom:50%;" />
 
 第二步，点击左侧**符号面板-符杠属性-首末端符杠**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120172355475.png" alt="image-20231120172355475" style="zoom:50%;" />
+<img src="./img/06_01_03.png" alt="06_01_03" style="zoom:50%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120172448482.png" alt="image-20231120172448482" style="zoom:50%;" />
+<img src="./img/06_01_04.png" alt="06_01_04" style="zoom:50%;" />
 
 ---
 
@@ -368,15 +365,15 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 **选中拍号右键-拍号属性**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120172857817.png" alt="image-20231120172857817" style="zoom:50%;" />
+<img src="./img/06_02_01.png" alt="06_02_01" style="zoom:50%;" />
 
 可以**在音符组中修改模板**（方法与调整谱面上音符符杠类似），例如将八分音符的组合方式改为如下图所示后点击OK。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120173058894.png" alt="image-20231120173058894" style="zoom: 33%;" />
+<img src="./img/06_02_02.png" alt="06_02_02" style="zoom: 33%;" />
 
 则该拍号作用域内的音符符杠将会以这个模板组合，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120173225099.png" alt="image-20231120173225099" style="zoom:50%;" />
+<img src="./img/06_02_03.png" alt="06_02_03" style="zoom:50%;" />
 
 ---
 
@@ -384,7 +381,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 我输入完上面的八分音符后，再输入底下的二分音符，这时候八分音符就全没了，下图是怎么做到的？
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120174336463.png" alt="image-20231120174336463" style="zoom:50%;" />
+<img src="./img/07_01_01.png" alt="07_01_01" style="zoom:50%;" />
 
 ---
 
@@ -392,31 +389,31 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 第一步，输入下面的二分音符前，需要切换至第二声部。**按 ctrl + alt + 2，或是在上方工具栏右侧点击按钮'2'**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120175036871.png" alt="image-20231120175036871" style="zoom:50%;" />
+<img src="./img/07_01_02.png" alt="07_01_02" style="zoom:50%;" />
 
 此时输入区域会变为绿色，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120175113787.png" alt="image-20231120175113787" style="zoom:50%;" />
+<img src="./img/07_01_03.png" alt="07_01_03" style="zoom:50%;" />
 
 第二步，**正常完成输入**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120175142783.png" alt="image-20231120175142783" style="zoom:50%;" />
+<img src="./img/07_01_04.png" alt="07_01_04" style="zoom:50%;" />
 
 第三步，**点击谱面空白处**，取消焦点，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120175423277.png" alt="image-20231120175423277" style="zoom:50%;" />
+<img src="./img/07_01_05.png" alt="07_01_05" style="zoom:50%;" />
 
 第四步，输入上面的八分音符前，需要切换回第一声部。**按 ctrl + alt + 1，或是在上方工具栏右侧点击按钮'1'**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120175311354.png" alt="image-20231120175311354" style="zoom:50%;" />
+<img src="./img/07_01_06.png" alt="07_01_06" style="zoom:50%;" />
 
 此时输入区域会变回蓝色，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120175451498.png" alt="image-20231120175451498" style="zoom:50%;" />
+<img src="./img/07_01_07.png" alt="07_01_07" style="zoom:50%;" />
 
 第五步，正常完成输入，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120174336463.png" alt="image-20231120174336463" style="zoom:50%;" />
+<img src="./img/07_01_08.png" alt="07_01_08" style="zoom:50%;" />
 
 ---
 
@@ -424,19 +421,19 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 除了第一声部外，其他声部多余的休止符可以直接选中按 delete 键删除，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120175923204.png" alt="image-20231120175923204" style="zoom:50%;" />
+<img src="./img/07_01_09.png" alt="07_01_09" style="zoom:50%;" />
 
 ---
 
 ### <span id="合并音符">八、我想让这两个音符合起来，怎么做？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120163955715.png" alt="image-20231120163955715" style="zoom:50%;" />
+<img src="./img/08_01_01.png" alt="08_01_01" style="zoom:50%;" />
 
 ----
 
 **选中其中一个音符的符头将其隐藏**即可，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120164058828.png" alt="image-20231120164058828" style="zoom:50%;" />
+<img src="./img/08_01_02.png" alt="08_01_02" style="zoom:50%;" />
 
 ---
 
@@ -446,15 +443,15 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 当一个符头同时出现上下两条符干时，说明**两个声部同时演奏这个音**，如下图中第一个音：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121204333987.png" alt="image-20231121204333987" style="zoom:50%;" />
+<img src="./img/08_01_03.png" alt="08_01_03" style="zoom:50%;" />
 
-将两个声部分离，第一声部：
+将两个声部分离更为直观，第一声部：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121204503266.png" alt="image-20231121204503266" style="zoom:50%;" />
+<img src="./img/08_01_04.png" alt="08_01_04" style="zoom:50%;" />
 
 第二声部：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121204518529.png" alt="image-20231121204518529" style="zoom:50%;" />
+<img src="./img/08_01_05.png" alt="08_01_05" style="zoom:50%;" />
 
 此时演奏方式为：正常弹奏第一声部，但由于第二声部的存在，第一声部的第一个音 C 应**保持按住**，且时值为四分音符，即**持续到最后一个音 G 结束后放开**。
 
@@ -462,7 +459,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 我想要调整这个力度记号的位置，可是每次往下拉都会让谱表之间的距离增大，怎么回事？
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121005510335.png" alt="image-20231121005510335" style="zoom:50%;" />
+<img src="./img/09_01_01.png" alt="09_01_01" style="zoom:50%;" />
 
 ---
 
@@ -470,11 +467,11 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 **选中需要取消自动布局的元素**，**按下=键**，或是在**元素检视器**中**取消勾选自动布局**，这两种方法是等价的，效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121005939981.png" alt="image-20231121005939981" style="zoom:50%;" />
+<img src="./img/09_01_02.png" alt="09_01_02" style="zoom:50%;" />
 
 之后就可以任意安排元素的位置了，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121010300574.png" alt="image-20231121010300574" style="zoom:50%;" />
+<img src="./img/09_01_03.png" alt="09_01_03" style="zoom:50%;" />
 
 ---
 
@@ -486,29 +483,29 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 ### <span id="跨谱表音符">十、这种跨谱表的效果怎么做出来？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120234225537.png" alt="image-20231120234225537" style="zoom:50%;" />
+<img src="./img/10_01_01.png" alt="10_01_01" style="zoom:50%;" />
 
 ---
 
 第一步，在**低音谱表或高音谱表**中，输入所有音符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120235220341.png" alt="image-20231120235220341" style="zoom:50%;" />
+<img src="./img/10_01_02.png" alt="10_01_02" style="zoom:50%;" />
 
 第二步（可选）、**根据需要调整符杠的连续性**（如何调整详见问题5），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120235401077.png" alt="image-20231120235401077" style="zoom:50%;" />
+<img src="./img/10_01_03.png" alt="10_01_03" style="zoom:50%;" />
 
 第三步，选中**所有需要翻上/下去的音符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120235922356.png" alt="image-20231120235922356" style="zoom:50%;" />
+<img src="./img/10_01_04.png" alt="10_01_04" style="zoom:50%;" />
 
 第四步，**按下ctrl + shift + ↑/↓**（↑为翻上去，↓为翻下去），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120235752207.png" alt="image-20231120235752207" style="zoom:50%;" />
+<img src="./img/10_01_05.png" alt="10_01_05" style="zoom:50%;" />
 
 第五步，根据需要最后进行调整，如隐藏不必要的休止符（如何调整详见问题 2）等，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231120235859221.png" alt="image-20231120235859221" style="zoom:50%;" />
+<img src="./img/10_01_06.png" alt="10_01_06" style="zoom:50%;" />
 
 ---
 
@@ -520,7 +517,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 ### <span id="跨谱表和弦">十一、跨谱表的和弦又怎么打出来呢？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121003546926.png" alt="image-20231121003546926" style="zoom:50%;" />
+<img src="./img/11_01_01.png" alt="11_01_01" style="zoom:50%;" />
 
 ---
 
@@ -528,19 +525,19 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 第一步，**分别输入每个谱表中的音符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121003842755.png" alt="image-20231121003842755" style="zoom:50%;" />
+<img src="./img/11_01_02.png" alt="11_01_02" style="zoom:50%;" />
 
 第二步（可选），**根据需要调整符干方向**，（如何调整详见问题 4），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121003951970.png" alt="image-20231121003951970" style="zoom:50%;" />
+<img src="./img/11_01_03.png" alt="11_01_03" style="zoom:50%;" />
 
 第三步，选中需要连接的符干，**按下=键取消其自动布局**（详见问题 9），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121010916497.png" alt="image-20231121010916497" style="zoom:50%;" />
+<img src="./img/11_01_04.png" alt="11_01_04" style="zoom:50%;" />
 
 第四步，**拖动方块调整符干至合适长度**，使上下谱表和弦的符干连接起来，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121010810132.png" alt="image-20231121010810132" style="zoom:50%;" />
+<img src="./img/11_01_05.png" alt="11_01_05" style="zoom:50%;" />
 
 ---
 
@@ -548,7 +545,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 如果没有第三步，即不取消自动布局，直接调整符干长度会出现“排斥”现象，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121011055193.png" alt="image-20231121011055193" style="zoom:50%;" />
+<img src="./img/11_01_06.png" alt="11_01_06" style="zoom:50%;" />
 
 ---
 
@@ -556,11 +553,11 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 我想要达到图中这个样子：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121012924374.png" alt="image-20231121012924374" style="zoom:50%;" />
+<img src="./img/12_01_01.png" alt="12_01_01" style="zoom:50%;" />
 
 实际打出来却是这样：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121012953972.png" alt="image-20231121012953972" style="zoom:50%;" />
+<img src="./img/12_01_02.png" alt="12_01_02" style="zoom:50%;" />
 
 符杠上面没有 3，符杠的连接方式也不太对，小节长度也不够了，怎么回事？
 
@@ -568,27 +565,27 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 符杠上面有个 3 代表“三连音”，**打三连音时最好提前创建**，因此需要删除打好的部分，回到空小节的状态，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121013251920.png" alt="image-20231121013251920" style="zoom:50%;" />
+<img src="./img/12_01_03.png" alt="12_01_03" style="zoom:50%;" />
 
 第一步：选中该小节，按顺序分别**按下 n 键**（进入输入模式）、**数字键 5**（时值为四分音符）、**数字键 0**（创建休止符），使全休止符分离出四分休止符（也可通过鼠标点击图形界面实现），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121013731312.png" alt="image-20231121013731312" style="zoom:50%;" />
+<img src="./img/12_01_04.png" alt="12_01_04" style="zoom:50%;" />
 
 第二步：**按下n键**退出输入模式（也可通过鼠标点击图形界面实现），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121013814687.png" alt="image-20231121013814687" style="zoom: 50%;" />
+<img src="./img/12_01_05.png" alt="12_01_05" style="zoom:50%;" />
 
 第三步：**选中前两个四分休止符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121013850083.png" alt="image-20231121013850083" style="zoom:50%;" />
+<img src="./img/12_01_06.png" alt="12_01_06" style="zoom:50%;" />
 
 第四步：**按下ctrl + 3**创建三连音，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121013938267.png" alt="image-20231121013938267" style="zoom:50%;" />
+<img src="./img/12_01_07.png" alt="12_01_07" style="zoom:50%;" />
 
-第五步：正常键入所需音符，最终效果如下：
+第五步：**正常键入所需音符**，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121014018235.png" alt="image-20231121014018235" style="zoom:50%;" />
+<img src="./img/12_01_08.png" alt="12_01_08" style="zoom:50%;" />
 
 ---
 
@@ -600,7 +597,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 一般来说，当连音数 $n$ 为大于等于 3 的奇数时，存在正整数 $k$ ，使得$2^k < n < 2^{k+1}$，则此时 $n$ 连音表示将原本 $2^k$ 个音所占的时值平均（当连音数n很大时，实际演奏时一般不会平均处理）划分为 $n$ 份。如 $2^3 < 11 < 2^4$，则 11 连音表示将原本 8 个音所占时值平均分为11 份，十六分音符十一连音就是将原本八个十六分音符，即一个二分音符所占时值平均分为十一份，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121020716111.png" alt="image-20231121020716111" style="zoom:50%;" />
+<img src="./img/12_02_01.png" alt="12_02_01" style="zoom:50%;" />
 
 **当连音数 n 为偶数时，一般此时是在划分附点音符**，这里不做过多展开，感兴趣的可以自行搜索了解。
 
@@ -612,25 +609,25 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 如要创建八分音符七连音，根据刚刚有关连音符的知识可知，总时值应为四个八分音符即一个二分音符，则**先选中一个二分休止符**，然后**按下ctrl + 7**即可，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121021449252.png" alt="image-20231121021449252" style="zoom:50%;" />
+<img src="./img/12_02_02.png" alt="12_02_02" style="zoom:50%;" />
 
 当连音数大于 9 时，此时不能直接通过快捷键创建连音符，需要通过**创建连音**面板创建，以创建十六分音符十一连音为例，根据刚刚有关连音符的知识可知，总时值应为八个十六分音符即一个二分音符，则第一步先**选中一个二分休止符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121021731634.png" alt="image-20231121021731634" style="zoom:50%;" />
+<img src="./img/12_02_03.png" alt="12_02_03" style="zoom:50%;" />
 
 第二步，点击**上方菜单栏-添加-连音符-其它...**，此时会弹出创建连音面板，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121022004082.png" alt="image-20231121022004082" style="zoom:33%;" />
+<img src="./img/12_02_04.png" alt="12_02_04" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121022023654.png" alt="image-20231121022023654" style="zoom:33%;" />
+<img src="./img/12_02_05.png" alt="12_02_05" style="zoom:33%;" />
 
 第三步，**在比率一栏中填写 11 / 8**，即连音数 **n** / $2^k$，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121022255166.png" alt="image-20231121022255166" style="zoom:33%;" />
+<img src="./img/12_02_06.png" alt="12_02_06" style="zoom:50%;" />
 
 第四步，**点击OK**，16 分音符11连音创建完成，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121022417371.png" alt="image-20231121022417371" style="zoom:50%;" />
+<img src="./img/12_02_07.png" alt="12_02_07" style="zoom:50%;" />
 
 ---
 
@@ -644,7 +641,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 明明是 44 拍，第一个小节却只有一个八分音符，这该怎么打出来？
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121023203113.png" alt="image-20231121023203113" style="zoom: 50%;" />
+<img src="./img/13_01_01.png" alt="13_01_01" style="zoom:50%;" />
 
 ---
 
@@ -652,21 +649,21 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 第一步，**选中需要调整的小节**，**点击鼠标右键-小节属性**，此时会弹出**小节属性**面板，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121023505471.png" alt="image-20231121023505471" style="zoom:33%;" />
+<img src="./img/13_01_02.png" alt="13_01_02" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121023532822.png" alt="image-20231121023532822" style="zoom:33%;" />
+<img src="./img/13_01_03.png" alt="13_01_03" style="zoom:33%;" />
 
 第二步，**将实际长度一栏中的值修改为 1 / 8**，即实际时值为 1 个 8 分音符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121023755324.png" alt="image-20231121023755324" style="zoom:33%;" />
+<img src="./img/13_01_04.png" alt="13_01_04" style="zoom:33%;" />
 
 第三步，**点击OK**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121023821431.png" alt="image-20231121023821431" style="zoom:50%;" />
+<img src="./img/13_01_05.png" alt="13_01_05" style="zoom:50%;" />
 
 第四步，**正常输入音符**，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121023857932.png" alt="image-20231121023857932" style="zoom:50%;" />
+<img src="./img/13_01_06.png" alt="13_01_06" style="zoom:50%;" />
 
 ---
 
@@ -674,21 +671,21 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 不完整小节的右上方会有一个灰色的"-"，提示该小节的实际时值小于谱面时值，**这个"-"为非打印内容，不会显示在导出的 pdf 中**。
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121121541961.png" alt="image-20231121121541961" style="zoom: 50%;" />
+<img src="./img/13_01_07.png" alt="13_01_07" style="zoom: 50%;" />
 
 **第一个不完整小节一般不算小节数**，可以在小节属性面板中勾选从小节数中排除。
 
 调整前，第二行第一个小节的小节号为 5 ，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121025022941.png" alt="image-20231121025022941" style="zoom:33%;" />
+<img src="./img/13_01_08.png" alt="13_01_08" style="zoom:33%;" />
 
 **选中第一小节，打开小节属性面板，勾选从小节数中排除**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121025124341.png" alt="image-20231121025124341" style="zoom:33%;" />
+<img src="./img/13_01_09.png" alt="13_01_09" style="zoom:33%;" />
 
 **点击OK**，此时第二行第一个小节的小节号变为 4 ，效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121025249638.png" alt="image-20231121025249638" style="zoom:33%;" />
+<img src="./img/13_01_10.png" alt="13_01_10" style="zoom:33%;" />
 
 ---
 
@@ -696,7 +693,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 华彩这一个小节里面有好多音符，打不下了，怎么办？
 
-<img src="C:\Users\14212\Desktop\image-20231121121700050.png" alt="image-20231121121700050" style="zoom:33%;" />
+<img src="./img/14_01_01.png" alt="14_01_01" style="zoom:33%;" />
 
 ---
 
@@ -706,21 +703,21 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 第一步，**选中该小节，打开小节属性面板**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121122123509.png" alt="image-20231121122123509" style="zoom:33%;" />
+<img src="./img/14_01_02.png" alt="14_01_02" style="zoom:33%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121122145365.png" alt="image-20231121122145365" style="zoom:33%;" />
+<img src="./img/14_01_03.png" alt="14_01_03" style="zoom:33%;" />
 
 第二步，该小节中有一个二分音符、两个四分音符和十二个十六分音符，总时值为 2+2+3=7 个四分音符，因此**将实际长度一栏改为 7 / 4** ，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121122500473.png" alt="image-20231121122500473" style="zoom:33%;" />
+<img src="./img/14_01_04.png" alt="14_01_04" style="zoom:33%;" />
 
 第三步，**按下OK**，此时小节实际长度发生变化，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121122545801.png" alt="image-20231121122545801" style="zoom:50%;" />
+<img src="./img/14_01_05.png" alt="14_01_05" style="zoom:50%;" />
 
 第四步，**正常输入音符**，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121122648339.png" alt="image-20231121122648339" style="zoom: 40%;" />
+<img src="./img/14_01_06.png" alt="14_01_06" style="zoom:50%;" />
 
 ---
 
@@ -730,47 +727,47 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 首先介绍一下插入模式，插入模式是音符输入模式的一种，在**左上角的N按钮**中可以切换输入模式，默认的输入模式为**逐步输入**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121123242757.png" alt="image-20231121123242757" style="zoom:33%;" />
+<img src="./img/14_02_01.png" alt="14_02_01" style="zoom:50%;" />
 
 **点击插入**，切换到插入模式，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121123322745.png" alt="image-20231121123322745" style="zoom:33%;" />
+<img src="./img/14_02_02.png" alt="14_02_02" style="zoom:50%;" />
 
 顾名思义，插入模式状态下会**在光标前插入音符**，并且会**自动增加小节实际长度**。
 
 为了让大家更清楚地理解插入模式的工作原理，下面稍微演示一下插入模式的使用，先分离出四分休止符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121123656004.png" alt="image-20231121123656004" style="zoom:50%;" />
+<img src="./img/14_02_03.png" alt="14_02_03" style="zoom:50%;" />
 
 **选中第二个四分休止符，进入插入模式**，此时光标落在第二个四分休止符上，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121123857604.png" alt="image-20231121123857604" style="zoom:50%;" />
+<img src="./img/14_02_04.png" alt="14_02_04" style="zoom:50%;" />
 
 随意输入音符，可以看到音符被插入到光标前面，并且小节长度也随之增加，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121123958807.png" alt="image-20231121123958807" style="zoom:50%;" />
+<img src="./img/14_02_05.png" alt="14_02_05" style="zoom:50%;" />
 
 ---
 
 了解插入模式的工作原理后，输入这种实际长度大于谱面长度的小节就变得轻而易举，观察该华彩小节，可以发现最后有一个四分音符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121124234787.png" alt="image-20231121124234787" style="zoom:50%;" />
+<img src="./img/14_02_06.png" alt="14_02_06" style="zoom:50%;" />
 
 第一步，在小节末尾**分离出一个四分休止符**，并**将四分音符输入上去（逐步输入模式）**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121124644859.png" alt="image-20231121124644859" style="zoom:50%;" />
+<img src="./img/14_02_07.png" alt="14_02_07" style="zoom:50%;" />
 
 第二步，**选中末尾的四分音符**，**切换到插入模式**，确保光标落在末尾的四分音符上，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121124746267.png" alt="image-20231121124746267" style="zoom:50%;" />
+<img src="./img/14_02_08.png" alt="14_02_08" style="zoom:50%;" />
 
 第三步，**按顺序输入其余音符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121124908408.png" alt="image-20231121124908408" style="zoom:50%;" />
+<img src="./img/14_02_09.png" alt="14_02_09" style="zoom: 33%;" />
 
 第四步，**选中小节开头多余的休止符，按下 ctrl + delete 删除**，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121125027697.png" alt="image-20231121125027697" style="zoom: 33%;" />
+<img src="./img/14_02_10.png" alt="14_02_10" style="zoom: 33%;" />
 
 ---
 
@@ -782,7 +779,7 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 ### <span id="震音">十五、符干上面有几条杠是什么意思？怎么打？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121163108475.png" alt="image-20231121163108475" style="zoom:50%;" />
+<img src="./img/15_01_01.png" alt="15_01_01" style="zoom:50%;" />
 
 ---
 
@@ -790,11 +787,11 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 震音记号表示**同音快速反复**，使用横杠在音符符干（没有符干的，如全音符，直接标记在符头上/下端）上进行标记，横杠类似于音符的符尾，一条横杠代表八分音符同音反复，两条横杠代表十六分音符同音反复，以此类推，同音反复的总时值等于原音符时值。下面是一些例子，**左为谱面记号，右为实际奏法**：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121163943822.png" alt="image-20231121163943822" style="zoom:50%;" />
+<img src="./img/15_01_02.png" alt="15_01_02" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121164229479.png" alt="image-20231121164229479" style="zoom:50%;" />
+<img src="./img/15_01_03.png" alt="15_01_03" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121164404608.png" alt="image-20231121164404608" style="zoom:50%;" />
+<img src="./img/15_01_04.png" alt="15_01_04" style="zoom:50%;" />
 
 ---
 
@@ -802,15 +799,15 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 第一步：**正常输入原音符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121164542715.png" alt="image-20231121164542715" style="zoom:50%;" />
+<img src="./img/15_01_05.png" alt="15_01_05" style="zoom:50%;" />
 
 第二步：**选中该音符**，在**符号面板-震音**中找到所需震干并**点击**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121164705596.png" alt="image-20231121164705596" style="zoom:50%;" />
+<img src="./img/15_01_06.png" alt="15_01_06" style="zoom:50%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121164731105.png" alt="image-20231121164731105" style="zoom:50%;" />
+<img src="./img/15_01_07.png" alt="15_01_07" style="zoom:50%;" />
 
 **若符号面板中没有震音，请参考问题 5 添加。**
 
@@ -818,45 +815,45 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 若**震音记号标记在两个音/双音/和弦中间**，则称为**震间**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121164959057.png" alt="image-20231121164959057" style="zoom:50%;" />
+<img src="./img/15_02_01.png" alt="15_02_01" style="zoom:50%;" />
 
 该记号表示在两个音之间快速反复，同样地，横杠的数量代表反复音符的时值。有一点需要注意，**震间两端的音符时值必须一致，且实际总时值仅为谱面上其中一个音符所占时值**，如上图中实际总时值应为一个全音符而不是两个全音符。下面是一些例子，**左为谱面记号，右为实际奏法**：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121165417764.png" alt="image-20231121165417764" style="zoom:50%;" />
+<img src="./img/15_02_02.png" alt="15_02_02" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121165531635.png" alt="image-20231121165531635" style="zoom:50%;" />
+<img src="./img/15_02_03.png" alt="15_02_03" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121165922022.png" alt="image-20231121165922022" style="zoom:50%;" />
+<img src="./img/15_02_04.png" alt="15_02_04" style="zoom:50%;" />
 
 ---
 
 输入震间也非常简单，如要输入下图中的震间，方法如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121164959057.png" alt="image-20231121164959057" style="zoom:50%;" />
+<img src="./img/15_02_05.png" alt="15_02_05" style="zoom:50%;" />
 
 第一步，**计算震间两端音符的时值**，由震间记号的规定，**震间两端音符时值必须相等，且实际总时值应为谱面上其中一个音符所占时值**。根据图中所示，震间两端音符的时值应均为全音符的一半，即二分音符。
 
 第二步，根据上一步计算得出的时值正常输入两个音符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121170304584.png" alt="image-20231121170304584" style="zoom:50%;" />
+<img src="./img/15_02_06.png" alt="15_02_06" style="zoom:50%;" />
 
 第三步：**选中第一个音符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121170424255.png" alt="image-20231121170424255" style="zoom:50%;" />
+<img src="./img/15_02_07.png" alt="15_02_07" style="zoom:50%;" />
 
 第四步：，在**符号面板-震音**中找到所需震间并**点击**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121170450404.png" alt="image-20231121170450404" style="zoom:50%;" />
+<img src="./img/15_02_08.png" alt="15_02_08" style="zoom:50%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121170514763.png" alt="image-20231121170514763" style="zoom:50%;" />
+<img src="./img/15_02_09.png" alt="15_02_09" style="zoom:50%;" />
 
 ---
 
 ### <span id="倚音">十六、这个音符前面的小音符是什么意思？怎么打出来？</span>
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121212721607.png" alt="image-20231121212721607" style="zoom:50%;" />
+<img src="./img/16_01_01.png" alt="16_01_01" style="zoom:50%;" />
 
 ---
 
@@ -870,23 +867,23 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
    前单倚音：
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121230122005.png" alt="image-20231121230122005" style="zoom:50%;" />
+   <img src="./img/16_01_02.png" alt="16_01_02" style="zoom:50%;" />
 
    前复倚音：
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122170436440.png" alt="image-20231122170436440" style="zoom:50%;" />
+   <img src="./img/16_01_03.png" alt="16_01_03" style="zoom:50%;" />
 
    后单倚音：
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122170225839.png" alt="image-20231122170225839" style="zoom:50%;" />
+   <img src="./img/16_01_04.png" alt="16_01_04" style="zoom:50%;" />
 
 2. 长倚音
 
    长倚音同样不占理论时值，在演奏时一般会占据主要音时值的一半，若主要音为附点音符，则占据主要音时值的 3/2 。长倚音不会出现复数个，且总是出现在主要音前方，一般使用**较小的四分音符或八分音符**表示。下面是一些长倚音的例子，，**左为谱面记号，右为实际奏法**：
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122172235738.png" alt="image-20231122172235738" style="zoom:40%;" />
+   <img src="./img/16_01_05.png" alt="16_01_05" style="zoom:50%;" />
 
-   <img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122172347096.png" alt="image-20231122172347096" style="zoom:50%;" />
+   <img src="./img/16_01_06.png" alt="16_01_06" style="zoom:50%;" />
 
    **注意：图中提供的实际奏法仅供参考，并不意味着必须精确地按照此节奏演奏**。实际上，倚音的演奏方式并不固定，会受到演奏者、作曲者、作曲者所处时代、曲谱标记、乐器等因素影响，比如前复倚音有时并不会演奏地那么快，长倚音在巴洛克时期也有不同的演奏方法。倚音的演奏方式还是需要具体情况具体分析。
 
@@ -894,31 +891,31 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 在 MuseScore 中输入倚音的方法如下，以下图为例：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231121212721607.png" alt="image-20231121212721607" style="zoom:50%;" />
+<img src="./img/16_01_07.png" alt="16_01_07" style="zoom:50%;" />
 
 第一步：**输入主要音**，即不带倚音的音符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122175800365.png" alt="image-20231122175800365" style="zoom:50%;" />
+<img src="./img/16_01_08.png" alt="16_01_08" style="zoom:50%;" />
 
 第二步：**选中该音符**，按下 / 键（短倚音的快捷键），或在**符号面板-倚音**中找到所需倚音并**点击**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122175905322.png" alt="image-20231122175905322" style="zoom:50%;" />
+<img src="./img/16_01_09.png" alt="16_01_09" style="zoom:50%;" />
 
 第三步：倚音默认音高与主要音相同，**需使用方向键↑/↓、上下拖动倚音、或其他方式调整倚音至合适的音高**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122180327553.png" alt="image-20231122180327553" style="zoom:50%;" />
+<img src="./img/16_01_10.png" alt="16_01_10" style="zoom:50%;" />
 
 第四步：**选中倚音**，**按下 s 键**为倚音和主要音之间添加圆滑线，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122180424950.png" alt="image-20231122180424950" style="zoom:50%;" />
+<img src="./img/16_01_11.png" alt="16_01_11" style="zoom:50%;" />
 
 第五步：若圆滑线效果不好，可以选中圆滑线后拖动锚点来调整圆滑线的形状、大小和位置，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122180541569.png" alt="image-20231122180541569" style="zoom:50%;" />
+<img src="./img/16_01_12.png" alt="16_01_12" style="zoom: 33%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122180624082.png" alt="image-20231122180624082" style="zoom:30%;" />
+<img src="./img/16_01_13.png" alt="16_01_13" style="zoom: 33%;" />
 
 **若符号面板中没有倚音，请参考问题 5 添加。**
 
@@ -928,33 +925,33 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 为复倚音添加圆滑线时，应选中**第一个音**按 s 键，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122180815156.png" alt="image-20231122180815156" style="zoom:40%;" />
+<img src="./img/16_01_14.png" alt="16_01_14" style="zoom:33%;" />
 
 由于倚音是从符号面板中点击添加，而不是通过输入音符的方式输入，因此**当倚音出现双音或是和弦时，需要特别的输入技巧**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122181204724.png" alt="image-20231122181204724" style="zoom:40%;" />
+<img src="./img/16_01_15.png" alt="16_01_15" style="zoom:50%;" />
 
 以上图为例，输入这种双音甚至和弦倚音的方法如下：
 
 第一步：**输入主要音符**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122181400009.png" alt="image-20231122181400009" style="zoom:50%;" />
+<img src="./img/16_01_16.png" alt="16_01_16" style="zoom:50%;" />
 
 第二步：**选中其中一个主要音符并添加倚音**（一般选择最下端的音符），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122181532260.png" alt="image-20231122181532260" style="zoom:50%;" />
+<img src="./img/16_01_17.png" alt="16_01_17" style="zoom:50%;" />
 
 第三步：**调整倚音至合适音高**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122181641788.png" alt="image-20231122181641788" style="zoom:50%;" />
+<img src="./img/16_01_18.png" alt="16_01_18" style="zoom:50%;" />
 
 第四步（关键）：**保持刚才输入的倚音为选中状态**，**按下 alt + 数字键**（此处为 alt + 4），此时上方出现第二个倚音，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122181823878.png" alt="image-20231122181823878" style="zoom:50%;" />
+<img src="./img/16_01_19.png" alt="16_01_19" style="zoom:50%;" />
 
 第五步：调整倚音至合适音高并添加圆滑线，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122181204724.png" alt="image-20231122181204724" style="zoom:40%;" />
+<img src="./img/16_01_20.png" alt="16_01_20" style="zoom:50%;" />
 
 如果还有更多的倚音，重复第三步与第四步即可。
 
@@ -968,21 +965,21 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
 **符头后跟着一个或多个点**的音符被称为**附点音符**，下图中是一些例子：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122102745478.png" alt="image-20231122102745478" style="zoom:50%;" />
+<img src="./img/17_01_01.png" alt="17_01_01" style="zoom:50%;" />
 
 **附点表示对音符时值的延长**，符头后有一个附点称为**附点[ ]音符**（'[ ]'指原音符的名称，如附点四分音符、附点二分音符等），一个附点表示**延长音符原时值的一半**；有两个附点则被称为**双/复附点[ ]音符**，总时值在一个附点音符的基础上，再延长音符原时值一半的一半，即总时值为 1 + 0.5 + 0.25 = **1.75 倍**的音符原时值；有 $n$ 个附点的音符被称为 **$n$ 重复附点[ ]音符**（注意是 n 重 / 复附点音符，而不是 n 重复 / 附点音符），其总时值为原音符时值的 $k$ 倍，其中 $k$ 与 $n$ 有以下关系：
 $$
-k = \sum\limits_{i=0}^{n} {{1} \over {2^{i}}}
+k = \sum\limits_{i=0}^{n} { {1} \over {2^{i} } }
 $$
 为了更加清晰地理解附点音符的时值，可以将其拆解，以下是一些例子，**左边与右边时值相等**：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122105000335.png" alt="image-20231122105000335" style="zoom:50%;" />
+<img src="./img/17_01_02.png" alt="17_01_02" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122105155702.png" alt="image-20231122105155702" style="zoom:50%;" />
+<img src="./img/17_01_03.png" alt="17_01_03" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122105254338.png" alt="image-20231122105254338" style="zoom:50%;" />
+<img src="./img/17_01_04.png" alt="17_01_04" style="zoom:50%;" />
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122105350024.png" alt="image-20231122105350024" style="zoom:50%;" />
+<img src="./img/17_01_05.png" alt="17_01_05" style="zoom:50%;" />
 
 ---
 
@@ -990,25 +987,25 @@ $$
 
 第一步，**正常打出原音符**（不带附点的音符），即二分音符，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122105602771.png" alt="image-20231122105602771" style="zoom:50%;" />
+<img src="./img/17_01_06.png" alt="17_01_06" style="zoom:50%;" />
 
 第二步，**选中该音符**，**按下.键**（即句号键），或在上方工具栏中**点击附点**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122110012352.png" alt="image-20231122110012352" style="zoom: 50%;" />
+<img src="./img/17_01_07.png" alt="17_01_07" style="zoom:50%;" />
 
 最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122110023622.png" alt="image-20231122110023622" style="zoom:50%;" />
+<img src="./img/17_01_08.png" alt="17_01_08" style="zoom:50%;" />
 
-**这种方法是在打完原音符后使其变成附点音符，实际打谱中不太推荐**，更推荐的做法是**在输入该音符前选择相应附点音符时值**，方法如下：
+**这种方法是在打完原音符后使其变成附点音符，实际打谱中不太推荐**（因为会多出第二步中选中音符的操作，拖慢效率），更推荐的做法是**在输入该音符前选择相应附点音符时值**，方法如下：
 
 第一步，**进入输入状态**（按下n键或点击左上方类似N的按钮），**按下数字键6**（选择时值为二分音符，也可使用鼠标点击二分音符按钮），**按下.键**（添加附点，也可使用鼠标点击附点按钮），如图所示（上方数字表示顺序，下方为快捷键）：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122110703067.png" alt="image-20231122110703067" style="zoom:50%;" />
+<img src="./img/17_01_09.png" alt="17_01_09" style="zoom: 50%;" />
 
-第二步，**正常输入音符**，此时会输入附点二分音符，最终效果如下：
+第二步，**正常输入音符**，此时会直接输入附点二分音符，最终效果如下：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122110827591.png" alt="image-20231122110827591" style="zoom:50%;" />
+<img src="./img/17_01_10.png" alt="17_01_10" style="zoom:50%;" />
 
 ---
 
@@ -1016,15 +1013,15 @@ $$
 
 第一步，**点击工具栏右侧切换工作区按钮**（默认为基础，图中显示基础（已修改）是因为我修改了符号面板），如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122111128054.png" alt="image-20231122111128054" style="zoom:50%;" />
+<img src="./img/17_01_11.png" alt="17_01_11" style="zoom:50%;" />
 
 第二步，**在下拉菜单中选择高级**，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122111206009.png" alt="image-20231122111206009" style="zoom:50%;" />
+<img src="./img/17_01_12.png" alt="17_01_12" style="zoom:50%;" />
 
 此时工具栏出现了复附点音符及多重附点音符等新按钮，如图所示：
 
-<img src="C:\Users\14212\AppData\Roaming\Typora\typora-user-images\image-20231122111321036.png" alt="image-20231122111321036" style="zoom:50%;" />
+<img src="./img/17_01_13.png" alt="17_01_13" style="zoom:50%;" />
 
 现在就可以仿照刚才讲过的输入附点音符的步骤输入复附点音符了。
 
